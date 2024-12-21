@@ -6,7 +6,7 @@ yum -y install nano wget perl;wget --no-check-certificate https://raw.githubuser
 ```
 #### Auto Active (Only eth0):
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/puarudz/v4Panel-1.62.4/main/active.sh;chmod -R 777 active.sh;./active.sh
+wget --no-check-certificate https://raw.githubusercontent.com/a6smile/v4Panel-1.62.4/refs/heads/main/active.sh;chmod -R 777 active.sh;./active.sh
 ```
 
 #### Manual Active:
@@ -36,8 +36,8 @@ service directadmin start
 
 #### Update Mirror Centos 7:
 ```
-wget -O /etc/yum/pluginconf.d/fastestmirror.conf --no-check-certificate https://raw.githubusercontent.com/puarudz/v4Panel-1.62.4/main/fastestmirror.conf
-wget -O /etc/yum.repos.d/CentOS-Base.repo --no-check-certificate https://raw.githubusercontent.com/puarudz/v4Panel-1.62.4/main/CentOS-Base.repo
+wget -O /etc/yum/pluginconf.d/fastestmirror.conf --no-check-certificate https://raw.githubusercontent.com/a6smile/v4Panel-1.62.4/refs/heads/main/fastestmirror.conf
+wget -O /etc/yum.repos.d/CentOS-Base.repo --no-check-certificate https://raw.githubusercontent.com/a6smile/v4Panel-1.62.4/refs/heads/main/CentOS-Base.repo
 sudo yum clean all
 sudo yum repolist -v
 ```
